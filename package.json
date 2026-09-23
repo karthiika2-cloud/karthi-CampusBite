@@ -1,0 +1,26 @@
+{
+  "name": "campusbite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "concurrently \"node server/server.js\" \"cd client && npm run dev\"",
+    "server": "node server/server.js",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "seed": "node server/db/seed.js",
+    "test": "node test/api-test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "concurrently": "^10.0.5",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3"
+  }
+}
