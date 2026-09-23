@@ -1,4 +1,4 @@
-# 🍔 CampusBite – Smart Canteen Food Ordering System
+# 🍔 CampusBite (karthi-CampusBite) – Smart Canteen Food Ordering System
 
 CampusBite is a modern, responsive digital canteen food ordering web application designed specifically for college campuses. It allows students to order meals ahead of time, skip lengthy counter queues, simulate online or cash payments, and track live food preparation status. It also includes an integrated Admin & Kitchen Staff Portal to monitor daily revenue, queue metrics, update order stages, and manage canteen menu catalogs in real-time.
 
@@ -156,3 +156,4 @@ CampusBite/
 └── test/
     └── api-test.js           # Automated end-to-end integration test suite
 ```
+
